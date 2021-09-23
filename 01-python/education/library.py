@@ -1,3 +1,8 @@
 def draw_library():
-    print("library not found")
+    print("   ':.")
+    print("     []_____")          
+    print("     /\      \ ")
+    print(" ___/  \__/\__\__")
+    print("/\___\ |''''''|__\ ")
+    print(" ||''| |''||''|''|")
     return
