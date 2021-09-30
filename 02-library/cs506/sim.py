@@ -5,7 +5,7 @@ def euclidean_dist(x, y):
     return res**(1/2)
 
 def manhattan_dist(x, y):
-    raise NotImplementedError()
+    return sum(abs(i-j) for i, j in zip(x,y))
 
 def jaccard_dist(x, y):
     raise NotImplementedError()
